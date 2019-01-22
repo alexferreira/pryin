@@ -55,7 +55,7 @@ defmodule PryIn.Mixfile do
     [
       {:plug, "~> 1.0", optional: true},
       {:phoenix, "~> 1.2", optional: true},
-      {:ecto, "~> 2.0", optional: true},
+      {:ecto_sql, "~> 3.0", optional: true},
       {:hackney, "~> 1.2"},
       {:exprotobuf, "~> 1.2"},
       {:ex_doc, "~> 0.15", only: :dev},
