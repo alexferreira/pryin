@@ -60,7 +60,7 @@ defmodule PryIn.Mixfile do
       {:exprotobuf, "~> 1.2"},
       {:ex_doc, "~> 0.15", only: :dev},
       {:credo, "~> 0.8", only: :dev},
-      {:recon, "~> 2.4"},
+      {:recon, "~> 2.3.2"},
       {:ex_machina, "~> 2.0", only: :test}
     ]
   end
